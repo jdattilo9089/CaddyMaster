@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559C4E252046F3180066742F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4E242046F3180066742F /* AppDelegate.swift */; };
+		559C4E272046F3180066742F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4E262046F3180066742F /* ViewController.swift */; };
+		559C4E2A2046F3180066742F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C4E282046F3180066742F /* Main.storyboard */; };
+		559C4E2D2046F3180066742F /* CaddyMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 559C4E2B2046F3180066742F /* CaddyMaster.xcdatamodeld */; };
+		559C4E2F2046F3180066742F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C4E2E2046F3180066742F /* Assets.xcassets */; };
+		559C4E322046F3180066742F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C4E302046F3180066742F /* LaunchScreen.storyboard */; };
+		559C4E3D2046F3190066742F /* CaddyMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4E3C2046F3190066742F /* CaddyMasterTests.swift */; };
+		559C4E482046F3190066742F /* CaddyMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4E472046F3190066742F /* CaddyMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559C4E392046F3190066742F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559C4E192046F3180066742F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559C4E202046F3180066742F;
+			remoteInfo = CaddyMaster;
+		};
+		559C4E442046F3190066742F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559C4E192046F3180066742F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559C4E202046F3180066742F;
+			remoteInfo = CaddyMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559C4E212046F3180066742F /* CaddyMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaddyMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C4E242046F3180066742F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559C4E262046F3180066742F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		559C4E292046F3180066742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559C4E2C2046F3180066742F /* CaddyMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaddyMaster.xcdatamodel; sourceTree = "<group>"; };
+		559C4E2E2046F3180066742F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559C4E312046F3180066742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559C4E332046F3180066742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C4E382046F3190066742F /* CaddyMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddyMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C4E3C2046F3190066742F /* CaddyMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyMasterTests.swift; sourceTree = "<group>"; };
+		559C4E3E2046F3190066742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C4E432046F3190066742F /* CaddyMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddyMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C4E472046F3190066742F /* CaddyMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyMasterUITests.swift; sourceTree = "<group>"; };
+		559C4E492046F3190066742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559C4E1E2046F3180066742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E352046F3190066742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E402046F3190066742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559C4E182046F3180066742F = {
+			isa = PBXGroup;
+			children = (
+				559C4E232046F3180066742F /* CaddyMaster */,
+				559C4E3B2046F3190066742F /* CaddyMasterTests */,
+				559C4E462046F3190066742F /* CaddyMasterUITests */,
+				559C4E222046F3180066742F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559C4E222046F3180066742F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559C4E212046F3180066742F /* CaddyMaster.app */,
+				559C4E382046F3190066742F /* CaddyMasterTests.xctest */,
+				559C4E432046F3190066742F /* CaddyMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559C4E232046F3180066742F /* CaddyMaster */ = {
+			isa = PBXGroup;
+			children = (
+				559C4E242046F3180066742F /* AppDelegate.swift */,
+				559C4E262046F3180066742F /* ViewController.swift */,
+				559C4E282046F3180066742F /* Main.storyboard */,
+				559C4E2E2046F3180066742F /* Assets.xcassets */,
+				559C4E302046F3180066742F /* LaunchScreen.storyboard */,
+				559C4E332046F3180066742F /* Info.plist */,
+				559C4E2B2046F3180066742F /* CaddyMaster.xcdatamodeld */,
+			);
+			path = CaddyMaster;
+			sourceTree = "<group>";
+		};
+		559C4E3B2046F3190066742F /* CaddyMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				559C4E3C2046F3190066742F /* CaddyMasterTests.swift */,
+				559C4E3E2046F3190066742F /* Info.plist */,
+			);
+			path = CaddyMasterTests;
+			sourceTree = "<group>";
+		};
+		559C4E462046F3190066742F /* CaddyMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559C4E472046F3190066742F /* CaddyMasterUITests.swift */,
+				559C4E492046F3190066742F /* Info.plist */,
+			);
+			path = CaddyMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559C4E202046F3180066742F /* CaddyMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C4E4C2046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMaster" */;
+			buildPhases = (
+				559C4E1D2046F3180066742F /* Sources */,
+				559C4E1E2046F3180066742F /* Frameworks */,
+				559C4E1F2046F3180066742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaddyMaster;
+			productName = CaddyMaster;
+			productReference = 559C4E212046F3180066742F /* CaddyMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559C4E372046F3190066742F /* CaddyMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C4E4F2046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMasterTests" */;
+			buildPhases = (
+				559C4E342046F3190066742F /* Sources */,
+				559C4E352046F3190066742F /* Frameworks */,
+				559C4E362046F3190066742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559C4E3A2046F3190066742F /* PBXTargetDependency */,
+			);
+			name = CaddyMasterTests;
+			productName = CaddyMasterTests;
+			productReference = 559C4E382046F3190066742F /* CaddyMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559C4E422046F3190066742F /* CaddyMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C4E522046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMasterUITests" */;
+			buildPhases = (
+				559C4E3F2046F3190066742F /* Sources */,
+				559C4E402046F3190066742F /* Frameworks */,
+				559C4E412046F3190066742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559C4E452046F3190066742F /* PBXTargetDependency */,
+			);
+			name = CaddyMasterUITests;
+			productName = CaddyMasterUITests;
+			productReference = 559C4E432046F3190066742F /* CaddyMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559C4E192046F3180066742F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "John Dattilo";
+				TargetAttributes = {
+					559C4E202046F3180066742F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					559C4E372046F3190066742F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559C4E202046F3180066742F;
+					};
+					559C4E422046F3190066742F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559C4E202046F3180066742F;
+					};
+				};
+			};
+			buildConfigurationList = 559C4E1C2046F3180066742F /* Build configuration list for PBXProject "CaddyMaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559C4E182046F3180066742F;
+			productRefGroup = 559C4E222046F3180066742F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559C4E202046F3180066742F /* CaddyMaster */,
+				559C4E372046F3190066742F /* CaddyMasterTests */,
+				559C4E422046F3190066742F /* CaddyMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559C4E1F2046F3180066742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C4E322046F3180066742F /* LaunchScreen.storyboard in Resources */,
+				559C4E2F2046F3180066742F /* Assets.xcassets in Resources */,
+				559C4E2A2046F3180066742F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E362046F3190066742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E412046F3190066742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559C4E1D2046F3180066742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C4E2D2046F3180066742F /* CaddyMaster.xcdatamodeld in Sources */,
+				559C4E272046F3180066742F /* ViewController.swift in Sources */,
+				559C4E252046F3180066742F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E342046F3190066742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C4E3D2046F3190066742F /* CaddyMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C4E3F2046F3190066742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C4E482046F3190066742F /* CaddyMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559C4E3A2046F3190066742F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559C4E202046F3180066742F /* CaddyMaster */;
+			targetProxy = 559C4E392046F3190066742F /* PBXContainerItemProxy */;
+		};
+		559C4E452046F3190066742F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559C4E202046F3180066742F /* CaddyMaster */;
+			targetProxy = 559C4E442046F3190066742F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559C4E282046F3180066742F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559C4E292046F3180066742F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559C4E302046F3180066742F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559C4E312046F3180066742F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559C4E4A2046F3190066742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559C4E4B2046F3190066742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559C4E4D2046F3190066742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559C4E4E2046F3190066742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		559C4E502046F3190066742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaddyMaster.app/CaddyMaster";
+			};
+			name = Debug;
+		};
+		559C4E512046F3190066742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaddyMaster.app/CaddyMaster";
+			};
+			name = Release;
+		};
+		559C4E532046F3190066742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaddyMaster;
+			};
+			name = Debug;
+		};
+		559C4E542046F3190066742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NHZ2424D9;
+				INFOPLIST_FILE = CaddyMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caddyMaster.624.CaddyMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaddyMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559C4E1C2046F3180066742F /* Build configuration list for PBXProject "CaddyMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C4E4A2046F3190066742F /* Debug */,
+				559C4E4B2046F3190066742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C4E4C2046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C4E4D2046F3190066742F /* Debug */,
+				559C4E4E2046F3190066742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C4E4F2046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C4E502046F3190066742F /* Debug */,
+				559C4E512046F3190066742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C4E522046F3190066742F /* Build configuration list for PBXNativeTarget "CaddyMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C4E532046F3190066742F /* Debug */,
+				559C4E542046F3190066742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		559C4E2B2046F3180066742F /* CaddyMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				559C4E2C2046F3180066742F /* CaddyMaster.xcdatamodel */,
+			);
+			currentVersion = 559C4E2C2046F3180066742F /* CaddyMaster.xcdatamodel */;
+			path = CaddyMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 559C4E192046F3180066742F /* Project object */;
+}
